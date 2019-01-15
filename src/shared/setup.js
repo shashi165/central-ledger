@@ -16,7 +16,7 @@ const Boom = require('boom')
 const RegisterHandlers = require('../handlers/register')
 const KafkaCron = require('../handlers/lib/kafka').Cron
 const Enums = require('../lib/enum')
-const Metrics = require('../lib/metrics')
+const Metrics = require('@mojaloop/central-services-metrics')
 
 const migrate = (runMigrations) => {
   return runMigrations ? Migrator.migrate() : P.resolve()

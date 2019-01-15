@@ -46,7 +46,7 @@ const Enum = require('../../lib/enum')
 const TransferState = Enum.TransferState
 const TransferEventType = Enum.transferEventType
 const TransferEventAction = Enum.transferEventAction
-const Metrics = require('../../lib/metrics')
+const Metrics = require('@mojaloop/central-services-metrics')
 const Config = require('../../lib/config')
 
 /**

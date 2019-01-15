@@ -49,7 +49,7 @@ const TransferEventType = Enum.transferEventType
 const TransferEventAction = Enum.transferEventAction
 const TransferObjectTransform = require('../../domain/transfer/transform')
 const Errors = require('../../lib/errors')
-const Metrics = require('../../lib/metrics')
+const Metrics = require('@mojaloop/central-services-metrics')
 const Config = require('../../lib/config')
 // TODO: This errorCode and errorDescription are dummy values until a rules engine is established
 const errorGenericCode = 3100
